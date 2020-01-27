@@ -20,5 +20,11 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * speed);
 
+    void OnTriggerEnter(Collider other)
+        {
+            
+        }
+      
     }
 }
+Destroy(other.gameObject);
